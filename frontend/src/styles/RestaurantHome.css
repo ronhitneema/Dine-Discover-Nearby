@@ -1,0 +1,20 @@
+.favorites-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .table-container {
+    flex-basis: 30%;
+  }
+  
+  .table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+  }

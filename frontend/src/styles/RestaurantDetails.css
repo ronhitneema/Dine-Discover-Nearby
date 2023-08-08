@@ -1,0 +1,77 @@
+.restaurant-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  background-color: #F5F5F5;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.restaurant-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.restaurant-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.restaurant-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.add-to-favorites-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.restaurant-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.restaurant-address {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.restaurant-open-now {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.restaurant-rating {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.restaurant-number-of-ratings {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: auto;
+  align-self: flex-end;
+  cursor: pointer;
+}
